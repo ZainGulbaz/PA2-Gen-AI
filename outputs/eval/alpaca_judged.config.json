@@ -1,0 +1,9 @@
+{
+  "pairs_sha256": "4ba42148184944071c14f5cc1c7206179f06ea072751fb25f316e4be7fc394aa",
+  "judge_model": "google/gemini-3.6-flash",
+  "rubric": "general",
+  "batch_size": 5,
+  "sleep_seconds": 5,
+  "max_retries": 3,
+  "judge_prompt_version": 1
+}

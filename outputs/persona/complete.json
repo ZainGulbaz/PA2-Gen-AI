@@ -1,0 +1,5 @@
+{
+  "best_checkpoint": "/kaggle/working/PA2_End_to_End/outputs/persona/checkpoint-10",
+  "best_metric": 1.0,
+  "global_step": 39
+}

@@ -1,0 +1,17 @@
+{
+  "expected_generations": {
+    "base_alpaca": 300,
+    "base_hh": 300,
+    "sft_alpaca": 300,
+    "dpo_uf_alpaca": 300,
+    "sft_hh": 300,
+    "dpo_hh_hh": 300,
+    "smol_base_persona": 16,
+    "persona_lora_persona": 16
+  },
+  "tracks": [
+    "alpaca",
+    "hh",
+    "persona"
+  ]
+}

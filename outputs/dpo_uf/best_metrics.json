@@ -1,0 +1,7 @@
+{
+  "step": 400,
+  "val_loss": 0.5822915307832882,
+  "reward_accuracy": 0.686,
+  "reward_margin": 0.5060005728336983,
+  "val_pairs": 1000
+}

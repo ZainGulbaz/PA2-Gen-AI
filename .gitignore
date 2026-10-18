@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+outputs/**/best/
+outputs/**/final/
+outputs/**/resume/
+outputs/**/checkpoint-*/
+*.zip
+*.pt
+*.safetensors

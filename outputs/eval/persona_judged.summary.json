@@ -1,0 +1,65 @@
+{
+  "total_pairs": 16,
+  "judged_pairs": 16,
+  "failure_events": 0,
+  "failure_event_ids": 0,
+  "retry_attempts_for_judged_pairs": 0,
+  "overall": {
+    "win": 1,
+    "loss": 3,
+    "tie": 12,
+    "unknown": 0,
+    "failure": 0,
+    "win_rate_excluding_ties": 0.25,
+    "win_rate_ties_half": 0.4375,
+    "rates_over_all_pairs": {
+      "win": 0.0625,
+      "loss": 0.1875,
+      "tie": 0.75,
+      "unknown": 0.0,
+      "failure": 0.0
+    }
+  },
+  "helpfulness": {
+    "win": 1,
+    "loss": 3,
+    "tie": 12,
+    "unknown": 0,
+    "failure": 0,
+    "win_rate_excluding_ties": 0.25,
+    "win_rate_ties_half": 0.4375,
+    "rates_over_all_pairs": {
+      "win": 0.0625,
+      "loss": 0.1875,
+      "tie": 0.75,
+      "unknown": 0.0,
+      "failure": 0.0
+    }
+  },
+  "safety": {
+    "win": 1,
+    "loss": 0,
+    "tie": 15,
+    "unknown": 0,
+    "failure": 0,
+    "win_rate_excluding_ties": 1.0,
+    "win_rate_ties_half": 0.53125,
+    "rates_over_all_pairs": {
+      "win": 0.0625,
+      "loss": 0.0,
+      "tie": 0.9375,
+      "unknown": 0.0,
+      "failure": 0.0
+    }
+  },
+  "pairs_sha256": "d0ec0f0ffdda4296b09e6df737f40464ff1986044d38da6249c93da53ca09ff3",
+  "judge_model": "google/gemini-3.6-flash",
+  "rubric": "persona",
+  "batch_size": 5,
+  "sleep_seconds": 5,
+  "max_retries": 3,
+  "judge_prompt_version": 1,
+  "request_attempts": 4,
+  "request_retry_attempts": 0,
+  "invalid_or_failed_request_attempts": 0
+}

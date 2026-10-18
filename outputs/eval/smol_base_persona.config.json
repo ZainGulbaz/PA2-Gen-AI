@@ -1,0 +1,17 @@
+{
+  "generator": "smol_base",
+  "source": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "checkpoint_sha256_or_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+  "eval_sha256": "17ebf30967b862aea02d5a7206657f7d99bca0b199da9813e86642739691688b",
+  "seed": 42,
+  "do_sample": false,
+  "num_beams": 1,
+  "max_new_tokens": 256,
+  "max_prompt_tokens": 256,
+  "temperature": null,
+  "top_p": null,
+  "repetition_penalty": 1.1,
+  "no_repeat_ngram_size": 4,
+  "length_penalty": 1.0,
+  "chat_template": "{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n' }}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}"
+}

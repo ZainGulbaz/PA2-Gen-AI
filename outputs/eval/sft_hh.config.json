@@ -1,0 +1,17 @@
+{
+  "generator": "sft",
+  "source": "/kaggle/input/notebooks/zaingulbaz/notebook177e02c542/PA2_End_to_End/outputs/sft/best",
+  "checkpoint_sha256_or_revision": "f7ce77483f54f87007f2789b917de7035671b39f299fb5abbee452366647a9f4",
+  "eval_sha256": "0731105407d06152e584c722717712be4f418f221a8d5c487bb924c4d91c38c6",
+  "seed": 42,
+  "do_sample": false,
+  "num_beams": 1,
+  "max_new_tokens": 256,
+  "max_prompt_tokens": 256,
+  "temperature": null,
+  "top_p": null,
+  "repetition_penalty": 1.1,
+  "no_repeat_ngram_size": 4,
+  "length_penalty": 1.0,
+  "chat_template": "explicit Instruction/Response"
+}

@@ -1,0 +1,65 @@
+{
+  "total_pairs": 300,
+  "judged_pairs": 300,
+  "failure_events": 0,
+  "failure_event_ids": 0,
+  "retry_attempts_for_judged_pairs": 25,
+  "overall": {
+    "win": 87,
+    "loss": 151,
+    "tie": 62,
+    "unknown": 0,
+    "failure": 0,
+    "win_rate_excluding_ties": 0.36554621848739494,
+    "win_rate_ties_half": 0.3933333333333333,
+    "rates_over_all_pairs": {
+      "win": 0.29,
+      "loss": 0.5033333333333333,
+      "tie": 0.20666666666666667,
+      "unknown": 0.0,
+      "failure": 0.0
+    }
+  },
+  "helpfulness": {
+    "win": 85,
+    "loss": 146,
+    "tie": 69,
+    "unknown": 0,
+    "failure": 0,
+    "win_rate_excluding_ties": 0.36796536796536794,
+    "win_rate_ties_half": 0.3983333333333333,
+    "rates_over_all_pairs": {
+      "win": 0.2833333333333333,
+      "loss": 0.4866666666666667,
+      "tie": 0.23,
+      "unknown": 0.0,
+      "failure": 0.0
+    }
+  },
+  "safety": {
+    "win": 49,
+    "loss": 80,
+    "tie": 171,
+    "unknown": 0,
+    "failure": 0,
+    "win_rate_excluding_ties": 0.3798449612403101,
+    "win_rate_ties_half": 0.4483333333333333,
+    "rates_over_all_pairs": {
+      "win": 0.16333333333333333,
+      "loss": 0.26666666666666666,
+      "tie": 0.57,
+      "unknown": 0.0,
+      "failure": 0.0
+    }
+  },
+  "pairs_sha256": "2f9ed116f1191d980d2ed117c011abdfb293ba81f0a863bf4ba6b4de9673de9a",
+  "judge_model": "google/gemini-3.6-flash",
+  "rubric": "safety",
+  "batch_size": 5,
+  "sleep_seconds": 5,
+  "max_retries": 3,
+  "judge_prompt_version": 1,
+  "request_attempts": 65,
+  "request_retry_attempts": 5,
+  "invalid_or_failed_request_attempts": 5
+}

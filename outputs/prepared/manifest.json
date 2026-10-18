@@ -1,0 +1,75 @@
+{
+  "seed": 42,
+  "smoke": false,
+  "revisions": {
+    "HuggingFaceH4/ultrachat_200k": "8049631c405ae6576f93f445c6b8166f76f5505a",
+    "HuggingFaceH4/ultrafeedback_binarized": "3949bf5f8c17c394422ccfab0c31ea9c20bdeb85",
+    "Anthropic/hh-rlhf": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+    "tatsu-lab/alpaca_eval": "2edc6fad8be6b14ea7230aabfd08188da6b8b814"
+  },
+  "provenance": [
+    {
+      "dataset": "HuggingFaceH4/ultrachat_200k",
+      "revision": "8049631c405ae6576f93f445c6b8166f76f5505a",
+      "split": "train_sft",
+      "examined": 30002,
+      "kept": 30000,
+      "shuffle_buffer": 10000
+    },
+    {
+      "dataset": "HuggingFaceH4/ultrachat_200k",
+      "revision": "8049631c405ae6576f93f445c6b8166f76f5505a",
+      "split": "test_sft",
+      "examined": 1001,
+      "kept": 1000,
+      "shuffle_buffer": 10000
+    },
+    {
+      "dataset": "HuggingFaceH4/ultrafeedback_binarized",
+      "revision": "3949bf5f8c17c394422ccfab0c31ea9c20bdeb85",
+      "split": "train_prefs",
+      "examined": 15136,
+      "kept": 15000,
+      "shuffle_buffer": 10000
+    },
+    {
+      "dataset": "HuggingFaceH4/ultrafeedback_binarized",
+      "revision": "3949bf5f8c17c394422ccfab0c31ea9c20bdeb85",
+      "split": "test_prefs",
+      "examined": 1008,
+      "kept": 1000,
+      "shuffle_buffer": 10000
+    },
+    {
+      "dataset": "Anthropic/hh-rlhf",
+      "revision": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+      "split": "train",
+      "examined": 47033,
+      "kept": 15000,
+      "shuffle_buffer": 10000
+    },
+    {
+      "dataset": "Anthropic/hh-rlhf",
+      "revision": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+      "split": "test",
+      "examined": 3403,
+      "kept": 1000,
+      "shuffle_buffer": 10000
+    }
+  ],
+  "files": {
+    "alpaca_eval.json": "d02b8fb637480b782e976f821291cc2cdd0d5bad9994d0ed7702992198cea837",
+    "hh_eval.json": "0731105407d06152e584c722717712be4f418f221a8d5c487bb924c4d91c38c6",
+    "hh_train.json": "7e33b39b7db6fda82d6215ff2ef553769fa16b7cd755af948742ff7fa2b31b50",
+    "hh_val.json": "034ec1ae894c7c9a38e94ed1d3c6a33392c2ce42e2c1953f581908073adcd584",
+    "persona_eval.json": "17ebf30967b862aea02d5a7206657f7d99bca0b199da9813e86642739691688b",
+    "persona_train.json": "d88ed462392cf5ceb6331fd5ec9bde6f96aaf036805e25cefbe81c1a2ee2c638",
+    "persona_val.json": "a47f7108dd2e1b2555a5f6b245554e9ee410d0279f2eefc81e924d3f82445943",
+    "sft_train.json": "ab351697ae4f3c4fb220382c322e17e674f82883008d4fbd0072dfa5d52b5240",
+    "sft_val.json": "67eb8da00a113cd00af56714b78aa50ad1ba93397d229ce1a9cfeffe13082612",
+    "uf_train.json": "5a6a231f57ef0bf174a1b5402aa7a1f81e94a688f8e6bedda0500398a29df32e",
+    "uf_val.json": "d61a337daf0812dbd06b7a179f023383e6f34f906b551c9c76dcdd75685d6c6a"
+  },
+  "format": "single-turn; Qwen uses explicit Instruction/Response text; persona uses native chat template",
+  "filters": "nonempty; single-turn preference pairs; distinct completions; distinct train/val prompts"
+}

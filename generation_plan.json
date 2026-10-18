@@ -1,0 +1,72 @@
+{
+  "data": "/kaggle/input/notebooks/zaingulbaz/notebook177e02c542/PA2_End_to_End/outputs/prepared",
+  "out": "/kaggle/working/PA2_End_to_End/outputs",
+  "jobs": [
+    [
+      "Qwen/Qwen2.5-0.5B",
+      "base",
+      "alpaca",
+      "alpaca_eval",
+      false,
+      false
+    ],
+    [
+      "Qwen/Qwen2.5-0.5B",
+      "base",
+      "hh",
+      "hh_eval",
+      false,
+      false
+    ],
+    [
+      "/kaggle/input/notebooks/zaingulbaz/notebook177e02c542/PA2_End_to_End/outputs/sft/best",
+      "sft",
+      "alpaca",
+      "alpaca_eval",
+      false,
+      false
+    ],
+    [
+      "/kaggle/working/PA2_End_to_End/outputs/dpo_uf/best",
+      "dpo_uf",
+      "alpaca",
+      "alpaca_eval",
+      false,
+      false
+    ],
+    [
+      "/kaggle/input/notebooks/zaingulbaz/notebook177e02c542/PA2_End_to_End/outputs/sft/best",
+      "sft",
+      "hh",
+      "hh_eval",
+      false,
+      false
+    ],
+    [
+      "/kaggle/input/notebooks/zaingulbaz/notebook177e02c542/PA2_End_to_End/outputs/dpo_hh/best",
+      "dpo_hh",
+      "hh",
+      "hh_eval",
+      false,
+      false
+    ],
+    [
+      "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "smol_base",
+      "persona",
+      "persona_eval",
+      true,
+      false
+    ],
+    [
+      "/kaggle/working/PA2_End_to_End/outputs/persona/best",
+      "persona_lora",
+      "persona",
+      "persona_eval",
+      true,
+      true
+    ]
+  ],
+  "max_new_tokens": 256,
+  "max_prompt_tokens": 256
+}

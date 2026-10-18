@@ -1,0 +1,7 @@
+{
+  "optimizer_groups": 469,
+  "successful_updates": 466,
+  "skipped_updates": 3,
+  "best_metric": 0.686,
+  "elapsed_seconds_this_session": 11507.883220434189
+}

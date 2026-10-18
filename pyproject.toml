@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pa2-small-model-alignment"
+version = "0.1.0"
+description = "Explicit SFT/DPO training with separate TRL LoRA persona experiment"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["alignment"]
+py-modules = ["submission_adapter"]

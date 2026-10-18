@@ -1,4 +1,4 @@
-# PA2: Small-Model Alignment
+# PA2: Small-Model Alignment (CODE IS IN MASTER BRANCH)
 
 This repository is the landing page for the completed SFT, two DPO tracks, persona LoRA, generation, and blinded evaluation workflow. The source code, plots, judged outputs, and seven-page report are packaged in the saved Kaggle notebook output linked below. Model checkpoints remain in Kaggle; they are intentionally omitted from the small source/results archive.
 
